@@ -2,7 +2,6 @@ var http = require('http');
 var URL = require('url').URL;
 var socket_io = require('socket.io')();
 
-const API_KEY = '6adbbfa23599d6234ced675985894f32';
 // const API_KEY = 'YOUR-API-KEY';
 
 var api_url =  new URL('http://api.openweathermap.org/data/2.5/weather');
