@@ -7,7 +7,6 @@
 var app = require('../app');
 var debug = require('debug')('websockets---weather:server');
 var http = require('http');
-var socket_io = require('socket.io');
 
 /**
  * Get port from environment and store in Express.
